@@ -1,0 +1,78 @@
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: #1a1a1a;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #c9a44c; /* لون ذهبي بسيط */
+}
+
+.logo img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.input-group {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #c9a44c;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #333;
+    background: #252525;
+    color: white;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    background: #c9a44c;
+    border: none;
+    border-radius: 8px;
+    color: #0a0a0a;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;
+}
+
+.login-btn:hover {
+    background: #e2bd62;
+    transform: translateY(-2px);
+}
+
+.footer-text {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #666;
+}
